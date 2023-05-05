@@ -60,6 +60,7 @@ export const Orders = ({ orders, articles, updateOrderById, createNewOrder, dele
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
+            cancelButtonText: 'Cancelar',
             confirmButtonText: 'Sí, eliminalo'
         }).then((result) => {
             if (result.isConfirmed) {
