@@ -51,7 +51,7 @@ export const Articles = ({ articles, createNewArticle, updateArticleById, delete
 
         Swal.fire({
             title: '¿Estás seguro?',
-            text: "También se eliminarán TODAS las ordenes asociadas a este articulo",
+            text: "También se eliminarán TODOS los pedidos asociados a este articulo",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
