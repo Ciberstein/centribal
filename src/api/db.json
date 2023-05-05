@@ -1,0 +1,19 @@
+{
+  "articles": [
+    {
+      "reference": "0254",
+      "name": "iPhone X",
+      "description": "Telefono",
+      "price": "100",
+      "tax": "2",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "articleId": "1",
+      "quantity": "10",
+      "id": 1
+    }
+  ]
+}
